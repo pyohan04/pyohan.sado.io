@@ -1,53 +1,65 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146436207-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-146436207-1');
-    </script>
     <meta charset="utf-8">
-    <title>동영상</title>
+    <title>연습용 홈페이지</title>
+    <style media="screen">
+        #box {
+height: 150px;
+width: 270px;
+background: #a1fc03;
+font-size: 48px;
+color: white;
+text-align: center;
+padding-left: 310px;
+padding-right: 330px;
+}
+table, th, td {
+  border: 50px solid black;
+}
+.boxbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr  1fr;
+
+}
+.middle {
+  text-align: center;
+}
+    </style>
   </head>
   <body>
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/7T7r_oSp0SE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer;
-autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://checkbow-2.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5d62038a77aa790be330974e/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</body>
+    <h1 id="box">
+      제휴 쇼핑몰
+    </h1>
+    <div class="boxbox">
+  <div >
+    <img src="shopping.png" alt="" width="200px" height="150px">
+    <div class="middle" >
+      상품에 대한 설명<br>
+      링크주소
+    </div>
+  </div>
+  <div >
+    <img src="shopping.png" alt="" width="200px" height="150px">
+    <div class="middle">
+      상품에 대한 설명<br>
+      링크주소
+    </div>
+  </div>
+  <div>
+    <img src="shopping.png" alt="" width="200px" height="150px">
+    <div  class="middle">
+      상품에 대한 설명<br>
+      링크주소
+      </div>
+    </div>
+    <div>
+      <img src="shopping.png" alt="" width="200px" height="150px">
+      <div class="middle">
+          상품에 대한 설명<br>
+          링크주소
+        </div >
+      </div>
+  </div>
+  </body>
 </html>
